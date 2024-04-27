@@ -1,11 +1,14 @@
 import React from "react";
-import styled from "styled-components";
 import Header from "./componets/Header";
+import Carousel from "./componets/Carousel";
+import Introduce from "./componets/Introduce";
 
 function App() {
   return (
     <>
       <Header />
+      <Carousel />
+      <Introduce />
     </>
   );
 }
